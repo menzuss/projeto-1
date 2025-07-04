@@ -1,3 +1,23 @@
 body {
-    background-color: aqua;
+    background-color: rgb(223, 228, 228);
+    font-family:   'Arial';
+}
+h1 {
+    text-align: center;
+}
+table {
+    margin: auto;
+}
+th {
+    padding: 20px;
+    background-color: rgb(216, 133, 25);
+}
+ td  {
+    padding: 20px;
+    background-color: rgb(100, 170, 147);
+}
+td:hover {
+    background-color: antiquewhite;
+    transition: 1s linear;
+    cursor: pointer;
 }
